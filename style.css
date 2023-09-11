@@ -1,148 +1,148 @@
 @keyframes duck-fly-1 {
   0% {
     left: -105px;
-    top: 55vh;
+    top: 65vh;
   }
   50% {
-    left: 47vw;
-    top: 24vh;
+    left: 45vw;
+    top: 1vh;
   }
   100% {
     left: 100vw;
-    top: 79vh;
+    top: 30vh;
   }
 }
 @keyframes duck-fly-2 {
   0% {
     left: -105px;
-    top: 21vh;
+    top: 66vh;
   }
   50% {
-    left: 24vw;
-    top: 44vh;
+    left: 20vw;
+    top: 35vh;
   }
   100% {
     left: 100vw;
-    top: 64vh;
+    top: 75vh;
   }
 }
 @keyframes duck-fly-3 {
   0% {
     left: -105px;
-    top: 1vh;
+    top: 45vh;
   }
   50% {
-    left: 47vw;
-    top: 72vh;
+    left: 58vw;
+    top: 8vh;
   }
   100% {
     left: 100vw;
-    top: 53vh;
+    top: 78vh;
   }
 }
 @keyframes duck-fly-4 {
   0% {
     left: -105px;
-    top: 32vh;
+    top: 3vh;
   }
   50% {
-    left: 7vw;
-    top: 85vh;
+    left: 14vw;
+    top: 44vh;
   }
   100% {
     left: 100vw;
-    top: 7vh;
+    top: 78vh;
   }
 }
 @keyframes duck-fly-5 {
   0% {
     left: -105px;
-    top: 1vh;
+    top: 30vh;
   }
   50% {
-    left: 3vw;
-    top: 46vh;
+    left: 54vw;
+    top: 57vh;
   }
   100% {
     left: 100vw;
-    top: 87vh;
+    top: 19vh;
   }
 }
 @keyframes duck-fly-6 {
   0% {
     left: -105px;
-    top: 32vh;
+    top: 50vh;
   }
   50% {
-    left: 46vw;
-    top: 16vh;
+    left: 49vw;
+    top: 40vh;
   }
   100% {
     left: 100vw;
-    top: 69vh;
+    top: 56vh;
   }
 }
 @keyframes duck-fly-7 {
   0% {
     left: -105px;
-    top: 40vh;
+    top: 57vh;
   }
   50% {
-    left: 34vw;
-    top: 73vh;
+    left: 44vw;
+    top: 29vh;
   }
   100% {
     left: 100vw;
-    top: 72vh;
+    top: 74vh;
   }
 }
 @keyframes duck-fly-8 {
   0% {
     left: -105px;
-    top: 29vh;
+    top: 22vh;
   }
   50% {
-    left: 15vw;
-    top: 65vh;
+    left: 57vw;
+    top: 34vh;
   }
   100% {
     left: 100vw;
-    top: 57vh;
+    top: 4vh;
   }
 }
 @keyframes duck-fly-9 {
   0% {
     left: -105px;
-    top: 41vh;
+    top: 40vh;
   }
   50% {
-    left: 4vw;
-    top: 11vh;
+    left: 28vw;
+    top: 14vh;
   }
   100% {
     left: 100vw;
-    top: 83vh;
+    top: 31vh;
   }
 }
 @keyframes duck-fly-10 {
   0% {
     left: -105px;
-    top: 29vh;
+    top: 7vh;
   }
   50% {
-    left: 34vw;
-    top: 72vh;
+    left: 39vw;
+    top: 71vh;
   }
   100% {
     left: 100vw;
-    top: 9vh;
+    top: 6vh;
   }
 }
 body {
   counter-reset: count;
   height: 100vh;
   margin: 0;
-  background-image: url('background.jpg');
+  background-image: url(https://i.ytimg.com/vi/i9R8MqilMW8/maxresdefault.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -178,32 +178,71 @@ body {
   width: 105px;
 }
 .duck_1 {
-  animation: duck-fly-1 5s ease-in 1s both;
+  animation: duck-fly-1 8s ease-in 1s both;
 }
 .duck_2 {
-  animation: duck-fly-2 5s ease-in 2s both;
+  animation: duck-fly-2 8s ease-in 2s both;
 }
 .duck_3 {
-  animation: duck-fly-3 5s ease-in 3s both;
+  animation: duck-fly-3 8s ease-in 3s both;
 }
 .duck_4 {
-  animation: duck-fly-4 5s ease-in 4s both;
+  animation: duck-fly-4 8s ease-in 4s both;
 }
 .duck_5 {
-  animation: duck-fly-5 5s ease-in 5s both;
+  animation: duck-fly-5 8s ease-in 5s both;
 }
 .duck_6 {
-  animation: duck-fly-6 5s ease-in 6s both;
+  animation: duck-fly-6 8s ease-in 6s both;
 }
 .duck_7 {
-  animation: duck-fly-7 5s ease-in 7s both;
+  animation: duck-fly-7 8s ease-in 7s both;
 }
 .duck_8 {
-  animation: duck-fly-8 5s ease-in 8s both;
+  animation: duck-fly-8 8s ease-in 8s both;
 }
 .duck_9 {
-  animation: duck-fly-9 5s ease-in 9s both;
+  animation: duck-fly-9 8s ease-in 9s both;
 }
 .duck_10 {
-  animation: duck-fly-10 5s ease-in 10s both;
+  animation: duck-fly-10 8s ease-in 10s both;
+}
+
+@media screen and (max-width: 1160px) {
+  .duck {
+    position: absolute;
+  }
+  .duck__img {
+    width: 105px;
+  }
+  .duck_1 {
+    animation: duck-fly-1 3s ease-in 1s both;
+  }
+  .duck_2 {
+    animation: duck-fly-2 3s ease-in 2s both;
+  }
+  .duck_3 {
+    animation: duck-fly-3 3s ease-in 3s both;
+  }
+  .duck_4 {
+    animation: duck-fly-4 3s ease-in 4s both;
+  }
+  .duck_5 {
+    animation: duck-fly-5 3s ease-in 5s both;
+  }
+  .duck_6 {
+    animation: duck-fly-6 3s ease-in 6s both;
+  }
+  .duck_7 {
+    animation: duck-fly-7 3s ease-in 7s both;
+  }
+  .duck_8 {
+    animation: duck-fly-8 3s ease-in 8s both;
+  }
+  .duck_9 {
+    animation: duck-fly-9 3s ease-in 9s both;
+  }
+  .duck_10 {
+    animation: duck-fly-10 3s ease-in 10s both;
+  }
 }/*# sourceMappingURL=style.css.map */
